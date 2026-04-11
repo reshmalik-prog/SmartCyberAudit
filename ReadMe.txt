@@ -1,16 +1,29 @@
-1. The requirements.txt (Crucial for Teammates)
-Since you installed psutil, your teammates' code will crash if they don't have it.
+# Smart Cyber Audit - Backend Modules
 
-In your VS Code terminal, type:
-pip freeze > backend/requirements.txt
+This repository contains the core security logic for the **Smart Cyber Audit** tool. These modules handle vulnerability detection and system log analysis.
 
-This creates a file that tells their computer exactly what to install to run your code.
+## Features
+* **Port Scanner:** Detects open ports and identifies potential security risks (e.g., SMB/Port 445).
+* **Log Analyzer:** Scans system audit logs for "FAILED" login attempts and critical alerts.
+* **Process Monitor:** Identifies suspicious system processes or resource-heavy activities.
+* **Automated Logging:** Maintains a persistent `audit_logs.txt` for all security events.
 
-2. Organize for the UI Lead
-Your teammate who is building the Dashboard UI needs to know how to "talk" to your code: 
+---
 
-"Interface for Vulnerability + Log Analysis Module:"
+## 🛠️ Integration Guide (For UI/Dashboard Lead)
+Use the following functions from `ReshmaModule` to populate the dashboard tabs:
 
-To scan ports: Call scanner.scan_vulnerabilities() → returns a list of strings.
-To check logs: Call scanner.get_logs() → returns the last 10 lines of the log file.
-To see alerts: Call scanner.check_failed_logins() → returns a count of "FAILED" attempts.
+| Feature | Function Call | Output Type |
+| :--- | :--- | :--- |
+| **Vulnerability Tab** | `scan_vulnerabilities()` | `List[String]` |
+| **Log Analysis Tab** | `check_failed_logins()` | `String (Alert Count)` |
+| **Audit Report** | `get_logs()` | `List[String] (Last 10 lines)` |
+
+---
+
+## Setup & Installation
+If you are running this from the project ZIP, follow these steps:
+
+1. **Install Dependencies:**
+   ```bash
+   pip install -r backend/requirements.txt
