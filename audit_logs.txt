@@ -1,0 +1,11 @@
+2026-04-11 15:51:10,577 - Port scan completed. Found: [445]
+2026-04-11 15:51:11,813 - Suspicious process check found 0 items.
+2026-04-11 15:57:10,654 - Port scan completed. Found: [445]
+2026-04-11 15:57:11,851 - Suspicious process check found 0 items.
+
+2026-04-11 16:00:00 - CRITICAL - FAILED login attempt from IP 192.168.1.502026-04-11 15:58:20,420 - Port scan completed. Found: [445]
+2026-04-11 15:58:21,657 - Suspicious process check found 0 items.
+2026-04-11 15:59:57,096 - Scan found: ['Port 445: SMB (Windows File Sharing - Potential Vulnerability)']
+2026-04-11 15:59:58,315 - Suspicious process check found 0 items.
+2026-04-11 16:26:19,032 - Scan found: ['Port 445: SMB (Windows File Sharing - Potential Vulnerability)']
+2026-04-11 16:26:20,234 - Suspicious process check found 0 items.
