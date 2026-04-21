@@ -1,16 +1,16 @@
-# 🔐 SmartCyberAudit 🤖
+# SmartCyberAudit 
 
 Cyber Audit Tool is a desktop-based cybersecurity application built in Python that analyzes system security, detects vulnerabilities, and provides intelligent insights using Machine Learning and NLP.
 
-## 🌟 Features
+## Features
 
-### 🖥 System Analysis
+### System Analysis
 
 * CPU, RAM, Disk, Network monitoring
 * OS details, uptime, active users
 * Installed software listing
 
-### 🛡 Security Checks
+### Security Checks
 
 * Firewall status
 * Antivirus detection
@@ -18,20 +18,20 @@ Cyber Audit Tool is a desktop-based cybersecurity application built in Python th
 * Windows Update check
 * Security score calculation
 
-### 🌐 Vulnerability Detection
+### Vulnerability Detection
 
 * Open port scanning
 * Risk classification (Low / Medium / High)
 * High-risk port detection
 * Option to block ports
 
-### 🤖 AI & Machine Learning
+### AI & Machine Learning
 
 * Isolation Forest for anomaly detection
 * Learns system behavior over time
 * Detects unusual activity
 
-### 📄 Log Analysis (NLP)
+### Log Analysis (NLP)
 
 * TF-IDF + Naive Bayes
 * Detects:
@@ -41,12 +41,12 @@ Cyber Audit Tool is a desktop-based cybersecurity application built in Python th
   * Privilege escalation
   * Suspicious processes
 
-### 📊 Visualization
+### Visualization
 
 * CPU, RAM, and Risk trends
 * Historical system analysis
 
-### 🧠 AI Insights
+### AI Insights
 
 * LLaMA 3 (via Ollama) integration
 * Generates:
@@ -55,12 +55,12 @@ Cyber Audit Tool is a desktop-based cybersecurity application built in Python th
   * Risks
   * Recommendations
 
-### 📑 Report Generation
+### Report Generation
 
 * Export full **Word (.docx) audit report**
 * Includes AI + NLP analysis
 
-## 🚀 Technologies Used
+## Technologies Used
 
 * Python
 * Tkinter (GUI)
@@ -71,7 +71,7 @@ Cyber Audit Tool is a desktop-based cybersecurity application built in Python th
 * psutil
 * Ollama (LLaMA 3)
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
 SmartCyberAudit/
@@ -89,7 +89,7 @@ SmartCyberAudit/
 └── README.md
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome!
 
@@ -98,27 +98,27 @@ Contributions are welcome!
 * Commit your changes
 * Push and create a pull request
 
-## ⚠️ Requirements
+## Requirements
 
 * Python 3.8+
 * Windows OS (recommended)
 * Admin access for full features
 * Ollama (optional for AI insights)
 
-## 🚀 Future Improvements
+## Future Improvements
 
 * Real-time monitoring
 * Web dashboard
 * Advanced threat detection
 * Cloud integration
 
-## 👩‍💻 Author
+## Author
 
 **Malik Reshma Shafaat Husain**
 **Belim Hamzah Aslam**
 **Khan Alfia Shamsul**
 **Afifa Qureshi Arif**
 
-## 📜 License
+## License
 
 This project is for educational purposes.
