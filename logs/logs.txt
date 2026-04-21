@@ -1,0 +1,68 @@
+16:45:04 - System scanned
+16:45:06 - Firewall=DISABLED AV=DISABLED
+16:45:07 - Port scan: [135, 445]
+16:45:08 - Scan complete
+16:46:58 - System scanned
+16:47:00 - Firewall=DISABLED AV=DISABLED
+16:47:01 - Port scan: [135, 445]
+17:04:06 - System scanned
+17:04:09 - Firewall=DISABLED AV=DISABLED
+17:04:10 - Port scan: [135, 445]
+17:04:11 - Scan complete
+17:04:59 - System scanned
+17:05:01 - Firewall=DISABLED AV=DISABLED
+17:05:01 - Port scan: [135, 445]
+17:05:09 - System scanned
+17:05:10 - Firewall=DISABLED AV=DISABLED
+17:05:11 - Port scan: [135, 445]
+17:05:18 - System scanned
+17:05:19 - Firewall=DISABLED AV=DISABLED
+17:05:20 - Port scan: [135, 445]
+17:05:58 - System scanned
+17:06:00 - Firewall=DISABLED AV=DISABLED
+17:06:01 - Port scan: [135, 445]
+17:11:22 - Scan started
+17:11:31 - Scan complete
+17:13:13 - Scan started
+17:43:17 - Scan started
+17:48:38 - Scan started
+17:48:55 - Scan complete
+17:50:22 - Scan started
+17:57:51 - Scan started
+17:58:08 - Scan complete
+17:59:36 - Scan started
+18:05:48 - Scan started
+18:05:58 - Scan complete
+18:07:55 - Scan started
+18:08:04 - Scan complete
+19:00:11 - System scanned
+19:00:12 - Firewall=DISABLED AV=DISABLED
+19:00:13 - Port scan: [135, 445]
+19:00:13 - Scan complete
+19:01:05 - System scanned
+19:01:06 - Firewall=DISABLED AV=DISABLED
+19:01:06 - Port scan: [135, 445]
+19:01:10 - System scanned
+19:01:10 - Firewall=DISABLED AV=DISABLED
+19:01:11 - Port scan: [135, 445]
+19:01:14 - System scanned
+19:01:15 - Firewall=DISABLED AV=DISABLED
+19:01:15 - Port scan: [135, 445]
+19:02:05 - System scanned
+19:02:06 - Firewall=DISABLED AV=DISABLED
+19:02:06 - Port scan: [135, 445]
+19:30:41 - Scan started
+19:30:47 - Scan complete
+19:32:30 - Scan started
+20:33:21 - Scan started
+23:03:59 - Scan started
+23:04:04 - Scan complete
+23:05:50 - Scan started
+23:56:49 - Scan started
+00:26:44 - Scan started
+01:25:30 - Scan started
+15:57:49 - Scan started
+15:57:57 - Scan complete
+15:59:43 - Scan started
+16:29:42 - Scan started
+16:59:43 - Scan started
