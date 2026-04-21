@@ -1,194 +1,118 @@
-# 🔐 Cyber Audit Tool — AI + NLP 🤖
+Cyber Audit Tool — AI + NLP 
 
-Cyber Audit Tool is a desktop-based cybersecurity application built in Python that analyzes system security, detects vulnerabilities, and provides intelligent insights using Machine Learning and NLP.
+A desktop-based cybersecurity auditing application developed in Python. The tool analyzes system security, detects vulnerabilities, and provides intelligent insights using Machine Learning and Natural Language Processing techniques.
 
----
+Overview
 
-## 🌟 Features
+The Cyber Audit Tool is designed to perform comprehensive system analysis by combining traditional security checks with modern AI-based techniques. It evaluates system configurations, monitors activity, identifies vulnerabilities, and generates structured audit reports.
 
-### 🖥 System Analysis
-- **CPU, RAM, Disk, Network monitoring**
-- **OS details, uptime, active users**
-- **Installed software listing**
+Features
+System Analysis
+Displays CPU, RAM, disk, and network usage
+Retrieves system information such as OS, uptime, and active users
+Lists installed software
+Security Checks
+Firewall status verification
+Antivirus detection
+User Account Control (UAC) status
+Windows update status
+Computes an overall security score
+Vulnerability Detection
+Scans for open ports
+Classifies risks as Low, Medium, or High
+Identifies high-risk ports
+Provides option to block vulnerable ports
+Machine Learning Integration
+Uses Isolation Forest for anomaly detection
+Learns system behavior from historical scans
+Identifies abnormal patterns in system performance
+Log Analysis using NLP
+Processes system logs using:
+TF-IDF Vectorization
+Multinomial Naive Bayes Classifier
+Detects events such as:
+Login failures
+Brute force attempts
+Privilege escalation
+Suspicious processes
+Visualization
+Displays trends for CPU usage, RAM usage, and risk score
+Provides historical analysis of system behavior
+AI-Based Insights
+Integrates with a local language model (LLaMA 3 via Ollama)
+Generates concise explanations including:
+Identified issues
+Associated risks
+Recommended actions
+Report Generation
+Generates a complete audit report
+Includes NLP-based log summaries
+Provides actionable recommendations
+Technology Stack
+Programming Language: Python
+GUI Framework: Tkinter
+Machine Learning: scikit-learn (Isolation Forest)
+Natural Language Processing: TF-IDF, Multinomial Naive Bayes
+Visualization: Matplotlib
+System Monitoring: psutil
+Database: SQLite
+AI Integration: Ollama (LLaMA 3)
+Installation
+Clone the Repository
+git clone https://github.com/your-username/cyber-audit-tool.git
+cd cyber-audit-tool
+Install Dependencies
+pip install -r requirements.txt
+Install Ollama (Optional for AI Insights)
 
-### 🛡 Security Checks
-- **Firewall status**
-- **Antivirus detection**
-- **UAC status**
-- **Windows Update check**
-- **Security score calculation**
+Download from: https://ollama.com/
 
-### 🌐 Vulnerability Detection
-- **Open port scanning**
-- **Risk classification (Low / Medium / High)**
-- **High-risk port detection**
-- **Port blocking feature**
+Run the model:
 
-### 🤖 AI & Machine Learning
-- **Isolation Forest for anomaly detection**
-- **Learns system behavior over time**
-- **Detects unusual activity**
+ollama run llama3
+Running the Application
+python main.py
+Working Principle
+The user initiates a system scan
+The application collects system and security data
+Machine learning analyzes system behavior
+NLP processes and classifies log entries
+AI module generates insights
+A structured audit report is produced
+Machine Learning and NLP Details
+Isolation Forest
+An unsupervised learning algorithm
+Detects anomalies based on deviations from normal behavior
+Improves accuracy as more scan data is collected
+NLP Pipeline
+Converts textual logs into numerical form using TF-IDF
+Applies Naive Bayes classification
+Categorizes logs into meaningful security events
+Project Structure
+├── main.py              # Main application file
+├── logs.txt             # Runtime logs
+├── audit_history.db     # SQLite database
+├── requirements.txt     # Project dependencies
+├── README.md            # Documentation
+Requirements
+Python 3.8 or higher
+Windows operating system (recommended for full functionality)
+Administrative privileges (required for certain security operations)
+Ollama (optional, for AI-based insights)
+Limitations
+Port scanning is limited to predefined common ports
+Full functionality is optimized for Windows systems
+Machine learning model requires multiple scans for effective results
+AI insights depend on local model availability
+Future Enhancements
+Real-time monitoring capabilities
+Web-based interface
+Advanced threat detection mechanisms
+Cloud integration
+Cross-platform support
+Author
+Developed as part of a cybersecurity and artificial intelligence academic project.
+License
+This project is intended for educational purposes only.
 
-### 📄 Log Analysis (NLP)
-- **TF-IDF + Naive Bayes**
-- Detects:
-  - Login failures
-  - Brute force attempts
-  - Privilege escalation
-  - Suspicious processes
 
-### 📊 Visualization
-- **CPU, RAM, Risk trends**
-- **Historical analysis**
-
-### 🧠 AI Insights
-- **LLaMA 3 (Ollama integration)**
-- Generates:
-  - Issues
-  - Risks
-  - Recommendations
-
-### 📑 Report Generation
-- **Word (.docx) audit reports**
-- **AI + NLP summaries included**
-
----
-
-## 🚀 Technologies Used
-
-- **Python**
-- **Tkinter**
-- **Scikit-learn**
-- **NLP (TF-IDF, Naive Bayes)**
-- **Matplotlib**
-- **SQLite**
-- **psutil**
-- **Ollama (LLaMA 3)**
-
----
-
-## 📂 Project Structure
-
-# 🔐 SmartCyberAudit 🤖
-
-Cyber Audit Tool is a desktop-based cybersecurity application built in Python that analyzes system security, detects vulnerabilities, and provides intelligent insights using Machine Learning and NLP.
-
-## 🌟 Features
-
-### 🖥 System Analysis
-
-* CPU, RAM, Disk, Network monitoring
-* OS details, uptime, active users
-* Installed software listing
-
-### 🛡 Security Checks
-
-* Firewall status
-* Antivirus detection
-* UAC status
-* Windows Update check
-* Security score calculation
-
-### 🌐 Vulnerability Detection
-
-* Open port scanning
-* Risk classification (Low / Medium / High)
-* High-risk port detection
-* Option to block ports
-
-### 🤖 AI & Machine Learning
-
-* Isolation Forest for anomaly detection
-* Learns system behavior over time
-* Detects unusual activity
-
-### 📄 Log Analysis (NLP)
-
-* TF-IDF + Naive Bayes
-* Detects:
-
-  * Login failures
-  * Brute force attempts
-  * Privilege escalation
-  * Suspicious processes
-
-### 📊 Visualization
-
-* CPU, RAM, and Risk trends
-* Historical system analysis
-
-### 🧠 AI Insights
-
-* LLaMA 3 (via Ollama) integration
-* Generates:
-
-  * Issues
-  * Risks
-  * Recommendations
-
-### 📑 Report Generation
-
-* Export full **Word (.docx) audit report**
-* Includes AI + NLP analysis
-
-## 🚀 Technologies Used
-
-* Python
-* Tkinter (GUI)
-* Scikit-learn (ML)
-* NLP (TF-IDF, Naive Bayes)
-* Matplotlib
-* SQLite
-* psutil
-* Ollama (LLaMA 3)
-
-## 📂 Project Structure
-
-```bash
-SmartCyberAudit/
-│── main.py
-│
-├── database/
-│   └── audit_history.db
-│
-├── logs/
-│   └── logs.txt
-│
-├── reports/
-│   └── Cyber_Audit_report.docx
-|
-└── README.md
-
-## 🤝 Contributing
-
-Contributions are welcome!
-
-* Fork the repo
-* Create a new branch (`feature-branch`)
-* Commit your changes
-* Push and create a pull request
-
-## ⚠️ Requirements
-
-* Python 3.8+
-* Windows OS (recommended)
-* Admin access for full features
-* Ollama (optional for AI insights)
-
-## 🚀 Future Improvements
-
-* Real-time monitoring
-* Web dashboard
-* Advanced threat detection
-* Cloud integration
-
-## 👩‍💻 Author
-
-**Malik Reshma Shafaat Husain**
-**Belim Hamzah Aslam**
-**Khan Alfia Shamsul**
-**Afifa Qureshi Arif**
-
-## 📜 License
-
-This project is for educational purposes.
